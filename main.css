@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.fas {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa-angle-left {
+    color: #000;
+    margin-right: 15rem;
+}
+
+.fa-angle-right {
+    color: #000;
+    margin-left: 15rem;
+}
+
+
+/*********NAVBAR STYLES***************/
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #000;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover {
+    color: rgb(248, 26, 92);
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(248, 26, 92);
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26, 92);
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn-search {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    border-radius: 60px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn-car {
+    font-size: 10px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(248, 26, 92);
+    padding: 12px 20px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+}
+
+.btn-car:hover {
+    background-color: rgb(223, 22, 82);
+    transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-car {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+.btn-ad-car {
+    height: 45px;
+    width: 75%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+/*********BANNER STYLES***************/
+
+.main {
+    background: url(./assets/banner.jpg) no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn-banner {
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: #fff;
+    border-radius: 60px;
+}
+
+.btn-banner:hover {
+    background-color: rgb(223, 22, 82);
+    transition: 0.5s;
+}
+
+
+/*********SALES STYLES***************/
+
+.card:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.6s;
+}
+
+
+/*********BANNER 2 STYLES***************/
+
+.second-banner {
+    background: url(./assets/banner2.jpg) no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: 50% 50%;
+    height: 70vh;
+    width: 100%;
+}
+
+.second-banner h1 {
+    font-family: 'Lobster', cursive;
+}
+
+
+/*********NEWS STYLES***************/
+
+.news {
+    background-color: #000;
+}
+
+.btn-news {
+    height: 45px;
+    width: 100px;
+    background: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+}
+
+.news-input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid #fff;
+    outline: none;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+}
+
+.news::placeholder {
+    color: #fff;
+}
+
+.news p {
+    margin: 0;
+}
